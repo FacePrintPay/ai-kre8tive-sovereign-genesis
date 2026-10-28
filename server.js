@@ -7,3 +7,5 @@ app.get('/', (req, res) => res.json({ status: 'online', project: 'ai-kre8tive-so
 app.get('/health', (req, res) => res.json({ status: 'healthy' }));
 
 app.listen(PORT, () => console.log(`ai-kre8tive-sovereign-genesis running on port ${PORT}`));
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=server.js
